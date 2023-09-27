@@ -3,15 +3,29 @@
 }
 .portfolio-item{
     color: white;
+    background-color: blanchedalmond;
 }
 .header-item{
+    display: flex;
     flex-direction: column column-reverse;
 }
 .container{
+    display: flex;
     background-color: red;
+    grid-template-columns: auto auto auto auto;
 }
 .item{
+    padding: 10px;
+    box-sizing: 10px 20px;
     background-color: blue;
+    border: 1px solid black;
+    margin: 10px;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .footer{
     background-color: black;
