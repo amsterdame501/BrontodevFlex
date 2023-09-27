@@ -1,12 +1,17 @@
 .header{
+    display: flex;
     background-color: aqua; 
+    justify-content: end;
 }
 .portfolio-item{
-    color: white;
-    background-color: blanchedalmond;
+    color: black;
+    background-color:aqua;
+    justify-content: start;
 }
 .header-item{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
    
 }
 .container{
@@ -20,6 +25,7 @@
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     margin: 10px;
+    flex-basis: 250px;
 }
 .item{
     padding: 20px;
@@ -40,6 +46,8 @@
 .footer{
     background-color: black;
     color: white;
+    height: 50px;
+   
 }
 .h2{
     margin: 0 0 15px;
