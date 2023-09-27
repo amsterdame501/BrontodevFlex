@@ -1,0 +1,19 @@
+.header{
+    background-color: aqua; 
+}
+.portfolio-item{
+    color: white;
+}
+.header-item{
+    flex-direction: column column-reverse;
+}
+.container{
+    background-color: red;
+}
+.item{
+    background-color: blue;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
